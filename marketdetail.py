@@ -9,10 +9,14 @@ def ticker(coiname):
 
   coin = {}
 
+  print(data)
+
   for item in data:
 
-    if item['market'] == coiname:
-      return(item)
+    #if item['market'] == coiname:
+    print(item['market'])
+    #return(item)
+    
 
 
 coinname = 'ETCINR'
